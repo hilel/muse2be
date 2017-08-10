@@ -1,10 +1,18 @@
 @import 'node_modules/angled-edges/_angled-edges.scss';
 @import 'node_modules/brand-colors/dist/latest/scss/brand-colors.latest.scss';
 
+@import "web-fonts"; 
+$url: web-fonts-url("Open Sans");
+@import url($url);
+$url: web-fonts-url("Ubuntu");
+@import url($url);
+$url: web-fonts-url("Roboto");
+@import url($url);
+
 html, body, #root {
   margin: 0;
   height: 100%;
-  font-family: Roboto, Helvetica, 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', Helvetica, 'Open Sans', sans-serif;
 }
 
 body, h1, h2, h3 {
